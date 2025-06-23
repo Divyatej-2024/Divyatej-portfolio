@@ -5,7 +5,9 @@ body {
     background-image: linear-gradient(120deg,blue,lightblue,lightgreen,green);
     color: #333;
 }
-
+body a{
+    text-decoration:none;
+}
 header {
     background: #0073e6;
     color: blue;
