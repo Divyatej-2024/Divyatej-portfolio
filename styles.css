@@ -5,6 +5,7 @@ body {
     background-image: linear-gradient(120deg,blue,lightblue,lightgreen,green);
     color: #333;
 }
+basic{}
 body a{
     text-decoration:none;
     border:1px solid black;
