@@ -6,9 +6,10 @@ body {
     color: #333;
 }
 body a{
-    text-decoration:none;
+    text-decoration:Bold;
     border:1px solid black;
     background:purple;
+    color:#ffd700;
     border-radius:300px;
 }
 header {
