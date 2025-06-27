@@ -5,33 +5,66 @@ body {
     background-image: linear-gradient(120deg,blue,lightblue,lightgreen,green);
     color: #333;
 }
-/* Navbar bar itself */
+/* Navbar */
 .basic-navbar {
-  background:#4CAF50;
-  padding:16px;
-  font-size:16px;
-  color:#fff;
-    margin-left:80px;
+  background-color: #4CAF50;
+  padding: 16px;
+  font-size: 16px;
+  color: white;
 }
 
-/* The link that opens the dropdown */
+/* Nav container */
+.basic-container-fluid {
+  display: inline-block;
+}
+
+/* Dropdown list container */
+.basic-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dropdown trigger link */
 .basic-dropdown-toggle {
-  color:#fff;
-  text-decoration:none;
-  cursor:pointer;
-  padding:0 8px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
-/* Links inside dropdown */
-.basic-dropdown-menu a {
-  display:block;
-  padding:12px 16px;
-  color:#000;
-  text-decoration:none;
+/* Dropdown menu (hidden by default) */
+.basic-dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-.basic-dropdown-menu a:hover {
-  background:#f1f1f1;
+/* Individual dropdown links */
+.basic-dropdown-menu li a {
+  display: block;
+  padding: 12px 16px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Hover effect for links */
+.basic-dropdown-menu li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Make dropdown visible on hover */
+.basic-dropdown {
+  position: relative;
+}
+
+.basic-dropdown:hover .basic-dropdown-menu {
+  display: block;
 }
 
 body a{
