@@ -101,7 +101,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-section .section{
+section {
     padding: 20px;
     margin: 20px;
     background: white;
@@ -109,6 +109,13 @@ section .section{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.section{
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 h2 {
     color: #0073e6;
 }
