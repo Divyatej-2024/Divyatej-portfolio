@@ -101,7 +101,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-section {
+section .section{
     padding: 20px;
     margin: 20px;
     background: white;
