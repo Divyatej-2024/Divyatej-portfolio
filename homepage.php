@@ -1,0 +1,9 @@
+<?php
+if(!isset($_GET['page'])){
+ include("login.php");
+}
+else{
+    $page=$_GET['page'];
+include("$page.php");
+}
+?>
